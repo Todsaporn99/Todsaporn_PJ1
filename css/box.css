@@ -1,0 +1,36 @@
+.box {
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    background-color: #4986ff;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #04ff00;
+    color: #024d01;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #054201;
+}
+
+#show {
+    color: #19004f;
+    font-size: 24px;
+    font-weight: bold;
+}
